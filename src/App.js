@@ -1,12 +1,11 @@
 import GlobalStyled from "../src/styles/global";
-import Login from "./pages/login"
+import Inicial from "./pages/inicial";
 
 function App() {
   return (
     <>
-      <GlobalStyled/>
-      <Login></Login>
-      
+      <GlobalStyled />
+      <Inicial></Inicial>
     </>
   );
 }
