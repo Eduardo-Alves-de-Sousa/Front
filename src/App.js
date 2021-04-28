@@ -1,11 +1,13 @@
 import GlobalStyled from "../src/styles/global";
-import Inicial from "./pages/inicial";
+
+import Inicio from "./pages/inicial";
+//import { AutenticacaoProvider } from "./hooks/autentication";
 
 function App() {
   return (
     <>
+      <Inicio></Inicio>
       <GlobalStyled />
-      <Inicial></Inicial>
     </>
   );
 }
